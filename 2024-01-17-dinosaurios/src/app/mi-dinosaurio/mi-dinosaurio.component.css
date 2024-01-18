@@ -1,0 +1,11 @@
+:host{
+    display: inline-flex;
+    flex-direction:column;
+    border: solid 10px black;
+    background-color: black;
+    color: green;
+}
+
+img{
+    height: 150px;
+}
