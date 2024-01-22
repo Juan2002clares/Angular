@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "2024-01-18b-Atributos-en-Angular": {
+    "2024-01-22-atributos-y-eventos": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/2024-01-18b-atributos-en-angular",
+            "outputPath": "dist/2024-01-22-atributos-y-eventos",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "2024-01-18b-Atributos-en-Angular:build:production"
+              "buildTarget": "2024-01-22-atributos-y-eventos:build:production"
             },
             "development": {
-              "buildTarget": "2024-01-18b-Atributos-en-Angular:build:development"
+              "buildTarget": "2024-01-22-atributos-y-eventos:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "2024-01-18b-Atributos-en-Angular:build"
+            "buildTarget": "2024-01-22-atributos-y-eventos:build"
           }
         },
         "test": {
